@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Matematik Jajar Genjang</title>
+</head>
+<body>
+    <div class="segitiga">
+        <a href="index.html" class="no-underline">
+            <h1>Segitiga</h1>
+        </a>
+        <a href="jajargenjang.html" class="no-underline">
+            <h1 class="jajargenjang">Jajar Genjang</h1>
+        </a>
+    <div class="calculator">
+        <h1>Kalkulator Matematik Jajar Genjang</h1>
+        <a href="jajargenjang.html" class="box-link">Hitung Luas Jajar Genjang</a>
+        <br>
+        <img src="jajargenjang.png" width="170px" height="150px">
+        <div class="formula">
+            <p> Rumus keliling jajar genjang yaitu</p>
+            <p>
+            <div class="rumus">
+                <b>K = 2 x (s1 + s2) </b>
+            </div>
+            </p>
+            <p>Dimana:</p>
+            <p>K = Keliling</p>
+            <p>s1 = Panjang Sisi 1</p>
+            <p>s2 = Panjang Sisi 2</p>
+        </div>
+        <div class="input-container">
+            <h2> Hitung Keliling Jajar Genjang</h2>
+            <input type="number" id="side1" class="input-field" placeholder="Panjang Sisi 1">
+        </div>
+        <div class="input-container">
+            <input type="number" id="side2" class="input-field" placeholder="Panjang Sisi 2">
+        </div>
+        <button onclick="KalkulatorKeliling()">Hitung </button>
+        <button class="reset" onclick="resetKelilingJajarGenjang()">Reset</button>
+        <p id="result">Hasil: </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

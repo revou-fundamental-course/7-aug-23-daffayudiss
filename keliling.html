@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Matematik Segitiga - Keliling</title>
+</head>
+<body>
+    <div class="segitiga">
+        <a href="index.html" class="no-underline">
+            <h1>Segitiga</h1>
+        </a>
+        <a href="jajargenjang.html" class="no-underline">
+            <h1 class="jajargenjang">Jajar Genjang</h1>
+        </a>
+    <div class="calculator">
+        <h1>Kalkulator Matematik Segitiga</h1>
+        <a href="index.html" class="box-link">Hitung Luas Segitiga</a>
+
+        <br>
+        <img src="segitiga.png" width="120px" 
+        height="120px">
+        <div class="formula">
+            <p> Rumus Keliling segitiga yaitu</p>
+            <p>
+            <div class="rumus">
+                <b>L = S1 + S2 +S3 </b>
+            </div>
+            </p>
+            <p>Dimana:</p>
+            <p>K = Keliling</p>
+            <p>S1 = Sisi A</p>
+            <p>S2 = Sisi B</p>
+            <p>S3 = Sisi C</p>
+        </div>
+        <div class="input-container">
+            <h2> Hitung Keliling Segitiga</h2>
+            <input type="number" id="side1" class="input-field" placeholder=" Masukkan S1">
+        </div>
+        <div class="input-container">
+            <input type="number" id="side2" class="input-field" placeholder=" Masukkan S2">
+        </div>
+        <div class="input-container">
+            <input type="number" id="side3" class="input-field" placeholder=" Masukkan S3">
+        </div>
+        <button onclick="calculatePerimeter()">Hitung</button>
+        <button class="reset" onclick="resetKelilingSegitiga()">Reset</button>
+
+        <p id="result">Hasil: </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

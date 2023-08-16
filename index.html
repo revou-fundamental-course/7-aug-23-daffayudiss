@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Matematik Segitiga</title>
+</head>
+<body>
+    <div class="segitiga">
+        <a href="index.html" class="no-underline">
+            <h1>Segitiga</h1>
+        </a>
+        <a href="jajargenjang.html" class="no-underline">
+            <h1 class="jajargenjang">Jajar Genjang</h1>
+        </a>
+
+        <div class="calculator">
+            <h1>Kalkulator Matematik Segitiga</h1>
+            <a href="keliling.html" class="box-link">Hitung Keliling Segitiga</a>
+            <br>
+            <img src="segitiga.png" width="120px" height="120px">
+            <div class="formula">
+                <p> Rumus luas segitiga yaitu</p>
+                <p>
+                <div class="rumus">
+                    <b>L = 1/2 x a x t </b>
+                </div>
+                </p>
+                <p>Dimana:</p>
+                <p>L = Luas</p>
+                <p>a = alas</p>
+                <p>t = Tinggi</p>
+            </div>
+            <div class="input-container">
+                <h2> Hitung Luas Segitiga</h2>
+                <input type="number" id="base" class="input-field" placeholder="Nilai Alas">
+            </div>
+            <div class="input-container">
+                <input type="number" id="height" class="input-field" placeholder="Nilai Tinggi">
+            </div>
+            <button onclick="calculate()">Hitung </button>
+            <button class="reset" onclick="resetLuasSegitiga()">Reset</button>
+
+            <p id="result">Hasil: </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eeeee4ff; 
+}
+h1.jajargenjang {
+    margin-top: 0; 
+}
+.jajargenjang {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.no-underline {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.calculator {
+    background-color: #eeeee4ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+a.box-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.formula {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.rumus {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.reset {
+    background-color: #ffcc00;
+    color: white;
+}
+
+button:hover {
+    background-color: #000000;
+}
+.segitiga {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.segitiga {
+    margin-top: 0;
+}
+
+button:active {
+    background-color: #555555;
+}
